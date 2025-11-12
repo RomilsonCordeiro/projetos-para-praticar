@@ -34,6 +34,6 @@ buttonResultado.addEventListener("click", () => {
   try {
     numberImput.value = eval(numberImput.value);
   } catch {
-    numberImput.value = "Erro";
+    numberImput.value = "";
   }
 });
