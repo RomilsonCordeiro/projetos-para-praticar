@@ -6,6 +6,7 @@ let buttonClearEntity = document.querySelector("#btnClearEntity");
 let buttonResultado = document.querySelector("#btnResultado");
 let buttonDot = document.querySelector("#btnPonto");
 
+/* Pega o valor de cada botão numerico e adiciona no input. */
 buttonsTypeNumber.forEach((btnNum) => {
   btnNum.addEventListener("click", () => {
     numberImput.value += btnNum.textContent;
